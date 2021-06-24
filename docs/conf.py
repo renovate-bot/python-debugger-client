@@ -80,9 +80,9 @@ source_suffix = [".rst", ".md"]
 master_doc = "index"
 
 # General information about the project.
-project = "google-cloud-debugger-client"
-copyright = "2019, Google"
-author = "Google APIs"
+project = u"google-cloud-debugger-client"
+copyright = u"2019, Google"
+author = u"Google APIs"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -281,7 +281,7 @@ latex_documents = [
     (
         master_doc,
         "google-cloud-debugger-client.tex",
-        "google-cloud-debugger-client Documentation",
+        u"google-cloud-debugger-client Documentation",
         author,
         "manual",
     )
@@ -316,7 +316,7 @@ man_pages = [
     (
         master_doc,
         "google-cloud-debugger-client",
-        "google-cloud-debugger-client Documentation",
+        u"google-cloud-debugger-client Documentation",
         [author],
         1,
     )
@@ -335,7 +335,7 @@ texinfo_documents = [
     (
         master_doc,
         "google-cloud-debugger-client",
-        "google-cloud-debugger-client Documentation",
+        u"google-cloud-debugger-client Documentation",
         author,
         "google-cloud-debugger-client",
         "google-cloud-debugger-client Library",
